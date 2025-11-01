@@ -2,7 +2,8 @@ Interview Questions:
 
 Section 1: Experimental Design Interview Questions
 
-1. How do you determine the duration of an A/B test? To determine the duration of an A/B test, consider the following factors:
+1. How do you determine the duration of an A/B test? 
+To determine the duration of an A/B test, consider the following factors:
 Sample size and statistical significance: The primary factor in determining test duration is reaching a statistically significant result. You need a large enough sample size in each variation to 
 confidently conclude that the observed differences are not due to chance.
 Business cycle and seasonality: Consider your business cycle and seasonality when determining test duration. For example, if you're an e-commerce site like Amazon, you may need to run tests for at 
