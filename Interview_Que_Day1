@@ -1,0 +1,39 @@
+Interview Questions:
+
+Section 1: Experimental Design Interview Questions
+
+1. How do you determine the duration of an A/B test? To determine the duration of an A/B test, consider the following factors:
+Sample size and statistical significance: The primary factor in determining test duration is reaching a statistically significant result. You need a large enough sample size in each variation to 
+confidently conclude that the observed differences are not due to chance.
+Business cycle and seasonality: Consider your business cycle and seasonality when determining test duration. For example, if you're an e-commerce site like Amazon, you may need to run tests for at 
+least a full week to capture behavior across weekdays and weekends.
+User behavior and purchasing cycle: Think about your typical user behavior and purchasing cycle. If you're testing a change related to a high-consideration purchase with a long decision cycle, 
+you may need to run the test for several weeks to fully capture the impact on conversions.
+Minimum detectable effect: The smaller the minimum improvement you want to be able to detect, the larger the sample size needed and thus the longer the test duration. 
+If you only care about detecting large effects, you can reach significance faster.
+
+2. What are some common pitfalls to avoid when designing an A/B test? Common pitfalls in A/B test design include:
+inadequate sample sizes
+biased sampling methods
+insufficient randomization
+running too many experiments at once
+In an interview, you usually want to contextualize your answer about A/B testing pitfalls to the business & team at-hand. 
+For example, if you were interviewing at Uber on the Driver Growth division, here are some specific A/B testing issues you might encounter:
+
+Difficulty isolating variables: Driver behavior is influenced by many external factors like local market conditions, seasonality, competitor activity, etc. This can make it challenging to isolate the impact of a specific A/B test variable.
+Long time to reach statistical significance: Given the long-term nature of driver acquisition and retention, it may take months for a test to reach statistically-significant results on metrics like driver retention and lifetime value
+Potential interference between simultaneous tests: With multiple teams likely running A/B tests concurrently on different aspects of the driver experience (e.g. signup flow, incentives, app features), there is risk of tests interfering with each other and confounding results.
+Ethical considerations with underserved segments: If an A/B test inadvertently provides a worse experience to certain underserved driver segments, even if unintentional, it could have outsized negative impact on those groups.
+Uber A/B Testing Pitfalls
+
+3. How would you ensure randomization in an A/B test? 
+Randomization in an A/B test can be ensured by randomly assigning participants to treatment and control groups, thereby minimizing the risk of bias and ensuring that the groups are comparable.
+
+4. Can you explain the concept of bucketing in the context of A/B testing? 
+Bucketing refers to the process of assigning participants to treatment and control groups based on predetermined criteria, such as geographic location, device type, or user segment.
+
+5. What considerations should be made when selecting the sample size for an A/B test? 
+Sample size for an A/B test should be determined based on considerations such as the desired level of statistical power, expected effect size, baseline conversion rate, and significance level.
+
+6. What is a control group, and why is it important in A/B testing? 
+The control group serves as a baseline for comparison, allowing researchers to assess the impact of the treatment by comparing outcomes between the treatment and control groups.
