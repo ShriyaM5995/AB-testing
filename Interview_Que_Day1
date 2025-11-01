@@ -21,7 +21,8 @@ running too many experiments at once
 In an interview, you usually want to contextualize your answer about A/B testing pitfalls to the business & team at-hand. 
 For example, if you were interviewing at Uber on the Driver Growth division, here are some specific A/B testing issues you might encounter:
 
-Difficulty isolating variables: Driver behavior is influenced by many external factors like local market conditions, seasonality, competitor activity, etc. This can make it challenging to isolate the impact of a specific A/B test variable.
+Difficulty isolating variables: Driver behavior is influenced by many external factors like local market conditions, seasonality, competitor activity, etc. This can make it challenging 
+to isolate the impact of a specific A/B test variable.
 Long time to reach statistical significance: Given the long-term nature of driver acquisition and retention, it may take months for a test to reach statistically-significant results on metrics like driver retention and lifetime value
 Potential interference between simultaneous tests: With multiple teams likely running A/B tests concurrently on different aspects of the driver experience (e.g. signup flow, incentives, app features), there is risk of tests interfering with each other and confounding results.
 Ethical considerations with underserved segments: If an A/B test inadvertently provides a worse experience to certain underserved driver segments, even if unintentional, it could have outsized negative impact on those groups.
